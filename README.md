@@ -26,25 +26,25 @@ cd misa-devpool-class-wall
 ## Step 2: Make your own branch
 
 A branch is your own safe copy to work on, so you don't mess with anyone else's work.
-Replace `yourname` with your actual name (no spaces):
+Replace `firstname-lastname` with your first and last name, lowercase, joined by a dash (for example `juan-delacruz`):
 
 ```bash
-git switch -c add-yourname
+git switch -c add-firstname-lastname
 ```
 
 ## Step 3: Make your card
 
-Copy the template and give it **your name** (lowercase, no spaces):
+Copy the template and name it with **the same firstname-lastname** you used for your branch:
 
 ```bash
 # Mac / Linux / Git Bash
-cp members/_template.html members/yourname.html
+cp members/_template.html members/firstname-lastname.html
 
 # Windows PowerShell or Command Prompt
-copy members\_template.html members\yourname.html
+copy members\_template.html members\firstname-lastname.html
 ```
 
-Open `members/yourname.html` in VS Code and change everything marked with `EDIT`:
+Open `members/firstname-lastname.html` in VS Code and change everything marked with `EDIT`:
 your initials, name, course, fun fact, goal, and favorite color.
 
 **Preview it:** double-click the file to open it in your browser. Refresh after each save.
@@ -54,19 +54,19 @@ your initials, name, course, fun fact, goal, and favorite color.
 ## Step 4: Commit (save a snapshot)
 
 ```bash
-git add members/yourname.html
-git commit -m "Add yourname's card"
+git add members/firstname-lastname.html
+git commit -m "Add Firstname's card"
 ```
 
 ## Step 5: Push (upload your branch to GitHub)
 
 ```bash
-git push -u origin add-yourname
+git push -u origin add-firstname-lastname
 ```
 
 ## Step 6: Open a Pull Request
 
-1. Go to the repo on GitHub. You'll see a yellow banner: **"add-yourname had recent pushes."**
+1. Go to the repo on GitHub. You'll see a yellow banner: **"add-firstname-lastname had recent pushes."**
 2. Click **Compare & pull request**, then **Create pull request**.
 3. Wait for the **green check mark** (about 30 seconds).
 4. A facilitator will merge it. About 1 minute later, **refresh the live wall and find your card!**
