@@ -36,11 +36,6 @@ body {
   padding: 4px 12px;
   font-size: 14px;
 }
-.motd {
-  margin: 14px 0 0;
-  font-size: 15px;
-  color: #444;
-}
 
 /* ---------- The wall ---------- */
 .wall {
@@ -106,7 +101,7 @@ body {
 
 @media (prefers-color-scheme: dark) {
   body { background: #17171a; color: #f2f2f2; }
-  .header .kicker, .motd, .footer, .card .meta { color: #a8a8ad; }
+  .header .kicker, .footer, .card .meta { color: #a8a8ad; }
   .header .count { background: #f2f2f2; color: #17171a; }
   .card { background: #232327; }
   .card .avatar { background: color-mix(in srgb, var(--accent) 30%, #232327); }
