@@ -1,4 +1,4 @@
-# Runs on every pull request. A green ✅ means your card is good to merge.
+# Runs on every pull request. A green check mark means your card is good to merge.
 name: Check my card
 
 on:

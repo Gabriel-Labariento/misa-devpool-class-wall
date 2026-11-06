@@ -1,14 +1,14 @@
-# 🧱 DevPool Class Wall
+# DevPool Class Wall
 
 Your mission: **get your card onto the live Class Wall website** using Git and GitHub.
 
-🌐 **Live wall:** https://gabriel-labariento.github.io/misa-devpool-class-wall/
+**Live wall:** https://gabriel-labariento.github.io/misa-devpool-class-wall/
 
 You'll do the same 6 steps real dev teams do every day: **clone → branch → edit → commit → push → pull request.**
 
 ---
 
-## ✅ Before you start
+## Before you start
 
 - [ ] You have a GitHub account
 - [ ] Git is installed (type `git --version` in your terminal; you should see a version number)
@@ -44,12 +44,12 @@ cp members/_template.html members/yourname.html
 copy members\_template.html members\yourname.html
 ```
 
-Open `members/yourname.html` in VS Code and change everything marked with ✏️:
-your name, course, emoji, fun fact, goal, and favorite color.
+Open `members/yourname.html` in VS Code and change everything marked with `EDIT`:
+your initials, name, course, fun fact, goal, and favorite color.
 
-👀 **Preview it:** double-click the file to open it in your browser. Refresh after each save.
+**Preview it:** double-click the file to open it in your browser. Refresh after each save.
 
-> ⚠️ Only edit **your own file**. Don't touch other files.
+> **Important:** Only edit **your own file**. Don't touch other files.
 
 ## Step 4: Commit (save a snapshot)
 
@@ -68,24 +68,24 @@ git push -u origin add-yourname
 
 1. Go to the repo on GitHub. You'll see a yellow banner: **"add-yourname had recent pushes."**
 2. Click **Compare & pull request**, then **Create pull request**.
-3. Wait for the **✅ green check** (about 30 seconds).
-4. A facilitator will merge it. About 1 minute later, **refresh the live wall and find your card!** 🎉
+3. Wait for the **green check mark** (about 30 seconds).
+4. A facilitator will merge it. About 1 minute later, **refresh the live wall and find your card!**
 
 ---
 
-## 🆘 Stuck?
+## Stuck?
 
 | Problem | Fix |
 |---|---|
 | `git push` asks for a password and rejects it | GitHub doesn't accept your account password here. Run `gh auth login` if you have GitHub CLI, or raise your hand and we'll help. |
 | `Permission denied` / `403` on push | You haven't accepted the repo invite yet. Check your email. |
-| ❌ red X on your pull request | Click **Details** to see what's wrong, fix your file, then `git add`, `git commit`, `git push` again. The PR updates by itself. |
+| Red X on your pull request | Click **Details** to see what's wrong, fix your file, then `git add`, `git commit`, `git push` again. The PR updates by itself. |
 | `fatal: not a git repository` | You're in the wrong folder. Run `cd misa-devpool-class-wall`. |
-| Anything else | Raise your hand! Getting stuck is part of learning Git. 🙂 |
+| Anything else | Raise your hand! Getting stuck is part of learning Git. |
 
 ---
 
-### 📖 Cheat sheet
+### Cheat sheet
 
 | Command | What it does |
 |---|---|

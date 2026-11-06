@@ -47,14 +47,14 @@ def main() -> int:
         cards.append(card)
 
     if problems:
-        print("❌ Some cards need fixing:\n")
+        print("Some cards need fixing:\n")
         for p in problems:
             print("  -", p)
         return 1
 
     page = (ROOT / "index.html").read_text(encoding="utf-8")
     body = "\n\n".join(cards) if cards else (
-        '<div class="empty">No cards yet. Be the first one on the wall! 🚀</div>'
+        '<div class="empty">No cards yet. Be the first one on the wall!</div>'
     )
     page = page.replace("<!-- CARDS -->", body).replace("<!-- COUNT -->", str(len(cards)))
 
@@ -64,7 +64,7 @@ def main() -> int:
     (OUT / "index.html").write_text(page, encoding="utf-8")
     shutil.copy(ROOT / "style.css", OUT / "style.css")
 
-    print(f"✅ Built the wall with {len(cards)} card(s).")
+    print(f"Built the wall with {len(cards)} card(s).")
     return 0
 
 

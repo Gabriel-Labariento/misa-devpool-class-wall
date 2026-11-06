@@ -75,7 +75,9 @@ body {
 .card:hover { transform: translateY(-3px) rotate(-.4deg); }
 
 .card .avatar {
-  font-size: 40px;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: .02em;
   width: 64px;
   height: 64px;
   display: grid;
